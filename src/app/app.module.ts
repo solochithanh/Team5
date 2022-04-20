@@ -10,6 +10,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { RegionComponent } from './components/region/region.component';
 import { WorldwideComponent } from './components/worldwide/worldwide.component';
 import { WeatherComponent } from './components/weather/weather.component';
+import { LineChartComponent } from './components/region/line-chart/line-chart.component';
+import { RegionalListComponent } from './components/region/regional-list/regional-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { WeatherComponent } from './components/weather/weather.component';
     HeaderComponent,
     RegionComponent,
     WorldwideComponent,
-    WeatherComponent
+    WeatherComponent,
+    LineChartComponent,
+    RegionalListComponent
   ],
   imports: [
     BrowserModule,
